@@ -13,7 +13,7 @@ const structuredData = {
     "name": "Aussie Move Pros",
     "image": "URL_TO_YOUR_LOGO",
     "address": {
-        "@type": "PostalAddress",
+        "@type": "2611",
         "addressLocality": "Canberra",
         "addressRegion": "ACT",
         "addressCountry": "Australia"
