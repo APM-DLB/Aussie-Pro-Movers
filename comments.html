@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Customer reviews and moving tips from Aussie Pro Movers. Choose between comments and our informative blog. Serving Canberra.">
+    <meta name="keywords" content="Canberra removalists reviews, moving blog, customer comments, Aussie Pro Movers">
+    <title>Comments & Blog - Aussie Pro Movers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="https://www.aussiepromovers.com.au/comments-blog.html">
+</head>
+<body class="dark-page">
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="logo.png" alt="A P M" class="logo-img">
+                <span class="logo-text">Aussie Pro Movers</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comments.html" class="active">Comments & Blog</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="instant-quote.html">Instant Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="instant-quote.html" class="get-quote-btn">Get a Free Instant Quote</a>
+        </nav>
+    </header>
+
+    <main class="combined-section">
+        <div class="toggle-buttons">
+            <button id="show-comments" class="toggle-button active" onclick="location.href='comments.html'">Customer Comments</button>
+            <button id="show-blog" class="toggle-button" onclick="location.href='advice.html'">Moving Tips & Advice</button>
+        </div>
+
+        <section id="comments" class="comments-section">
+            <h1>Customer Comments</h1>
+            <p>Share your experience with our Canberra community!</p>
+            <form id="comment-form" action="/process-comment" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <textarea name="comment" placeholder="Your Comment" required></textarea>
+                <button type="submit" class="form-btn">Post Comment</button>
+            </form>
+            <div id="comment-list">
+                <div class="comment-item">
+                    <p>Moved from Braddon to Kambah seamlessly. Professional and punctual!</p>
+                    <cite>- Sarah L., Braddon</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Interstate move to Sydney was stress-free. Highly recommend!</p>
+                    <cite>- Tom R., Belconnen</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Packing service saved us time moving to Woden. Great care taken!</p>
+                    <cite>- Emma W., Woden</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Local move in Tuggeranong was quick and affordable.</p>
+                    <cite>- James T., Tuggeranong</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Storage solutions were perfect for our Gungahlin move.</p>
+                    <cite>- Lisa M., Gungahlin</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Moved my office in Fyshwick with no downtime. Fantastic!</p>
+                    <cite>- Mark D., Fyshwick</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Relocated to Dickson with ease. Friendly team!</p>
+                    <cite>- Chloe S., Dickson</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Interstate to Melbourne was smooth. Great communication!</p>
+                    <cite>- David P., Ainslie</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Same-day move in Kingston was a lifesaver!</p>
+                    <cite>- Rachel B., Kingston</cite>
+                </div>
+                <div class="comment-item">
+                    <p>Handled our fragile items perfectly in Lyneham.</p>
+                    <cite>- Michael K., Lyneham</cite>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>20+ years serving Canberra with AFRA-aligned standards.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +61 478 762 114</p>
+                <p>Email: Aussiepromovers@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="YOUR_FACEBOOK_URL" class="social-link">Facebook</a> | <a href="YOUR_X_URL" class="social-link">X</a>
+            </div>
+        </div>
+        <p>© 2017 Aussie Pro Movers. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

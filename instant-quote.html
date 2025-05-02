@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get an instant moving quote with Aussie Pro Movers for Canberra and interstate moves. Transparent pricing and competitive rates.">
+    <meta name="keywords" content="instant moving quote, Canberra removalists, moving cost estimate, interstate movers">
+    <title>Instant Quote - Aussie Pro Movers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-page">
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="logo.png" alt="A P M" class="logo-img">
+                <span class="logo-text">Aussie Pro Movers</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comments.html">Comments & Blog</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="instant-quote.html" class="active">Instant Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="instant-quote.html" class="get-quote-btn">Get a Free Instant Quote</a>
+        </nav>
+    </header>
+
+    <main class="instant-quote-page">
+        <section class="instant-quote">
+            <h1>Get Your Instant Moving Quote</h1>
+            <p class="lead">Calculate your moving costs instantly for local Canberra and interstate relocations. Our transparent pricing ensures you know exactly what to expect.</p>
+            <form id="quote-form">
+                <div class="form-group">
+                    <label for="move-type">Type of Move</label>
+                    <select name="move-type" id="move-type" required>
+                        <option value="">Select Move Type</option>
+                        <option value="local">Local (Within Canberra)</option>
+                        <option value="interstate">Interstate</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="suburb">Select Location</label>
+                    <select name="suburb" id="suburb" required>
+                        <option value="">Select Location</option>
+                    </select>
+                </div>
+                <div class="form-group form-group-distance" style="display: none;">
+                    <label for="distance">Distance (km)</label>
+                    <input type="number" name="distance" id="distance" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="truck-size">Truck Size</label>
+                    <select name="truck-size" id="truck-size" required>
+                        <option value="">Select Truck Size</option>
+                        <option value="6t">6-Tonne Truck (2-3 bedroom home)</option>
+                        <option value="9t">9-Tonne Truck (4+ bedroom home)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="movers">Number of Movers</label>
+                    <select name="movers" id="movers" required>
+                        <option value="">Select Number of Movers</option>
+                        <option value="2">2 Movers (Small moves)</option>
+                        <option value="3">3 Movers (Medium moves)</option>
+                        <option value="4">4 Movers (Large moves)</option>
+                        <option value="5">5 Movers (Extra large moves)</option>
+                        <option value="5+">5+ Movers (Complex moves)</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Calculate Quote</button>
+            </form>
+            <div id="quote-result" class="quote-result">
+                <div id="truck-animation"></div>
+                <h2>Your Moving Quote</h2>
+                <div id="quote-amount"></div>
+                <div class="quote-details">
+                    <p><span>Base Rate:</span> <strong id="base-rate"></strong></p>
+                    <p><span>Labor Cost:</span> <strong id="labor-cost"></strong></p>
+                    <p><span>Distance Fee:</span> <strong id="distance-fee"></strong></p>
+                    <p><span>Equipment & Truck Fee:</span> <strong id="equipment-fee"></strong></p>
+                </div>
+                <div class="quote-note">
+                    <p>✓ Fixed price guarantee - no hidden costs</p>
+                    <p>✓ Professional, trained movers</p>
+                    <p>✓ Full insurance coverage available</p>
+                    <p>* Additional fees may apply for stairs, heavy items, or special handling</p>
+                    <p>* This is an estimate based on standard moving conditions</p>
+                </div>
+                <a href="contact.html" class="contact-btn">Book Your Move</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>20+ years serving Canberra with AFRA-aligned standards.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +61 478 762 114</p>
+                <p>Email: Aussiepromovers@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="YOUR_FACEBOOK_URL" class="social-link">Facebook</a> | <a href="YOUR_X_URL" class="social-link">X</a>
+            </div>
+        </div>
+        <p>© 2017 Aussie Pro Movers. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
