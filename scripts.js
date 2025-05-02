@@ -63,26 +63,26 @@ document.addEventListener('DOMContentLoaded', function() {
         local: {
             baseRate: 170,
             hourlyRates: {
-                '2': 130,
-                '3': 150,
-                '4': 170,
-                '5': 190,
-                '5+': 210
+                '2': 170,
+                '3': 210,
+                '4': 270,
+                '5': 310,
+                '5+': 370
             },
             minimumHours: {
-                '2': 3,
-                '3': 4,
-                '4': 5,
-                '5': 6,
-                '5+': 7
+                '2': 4,
+                '3': 5,
+                '4': 6,
+                '5': 7,
+                '5+': 8
             },
             truckSizes: {
-                '6t': { basePrice: 100, hourlyRate: 20 },
-                '9t': { basePrice: 150, hourlyRate: 30 }
+                '6t': { basePrice: 150, hourlyRate: 20 },
+                '9t': { basePrice: 170, hourlyRate: 30 }
             }
         },
         interstate: {
-            baseRate: 3000,
+            baseRate: 2000,
             distanceRate: 2.5,
             minDistance: 100,
             truckSizes: {
