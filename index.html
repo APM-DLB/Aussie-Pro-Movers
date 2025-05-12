@@ -18,6 +18,7 @@
                 <img src="logo.png" alt="A M P" class="logo-img">
                 <span class="logo-text">Aussie Pro Movers</span>
             </div>
+            <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="comments.html">Comments & Blog</a></li>
@@ -96,5 +97,14 @@
         <p>© 2017 Aussie Pro Movers. All Rights Reserved.</p>
     </footer>
     <script src="scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
